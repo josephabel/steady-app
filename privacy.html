@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Steady</title>
+<meta name="description" content="Privacy policy for Steady, an iOS app for understanding your own glucose data. Your health data stays on your device.">
+<style>
+  :root {
+    --ink: #1c1c1e;
+    --muted: #6b6b70;
+    --accent: #0a84ff;
+    --rule: #e5e5ea;
+    --bg: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 22px 72px; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 20px; margin-bottom: 8px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.02em; }
+  h2 { font-size: 20px; margin: 34px 0 10px; letter-spacing: -0.01em; }
+  p, li { color: var(--ink); }
+  .meta { color: var(--muted); font-size: 15px; margin: 4px 0 0; }
+  .lede { font-size: 18px; }
+  strong { font-weight: 600; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  ul { padding-left: 22px; }
+  li { margin: 8px 0; }
+  code { background: #f2f2f7; padding: 1px 5px; border-radius: 5px; font-size: 0.9em; }
+  .back { display: inline-block; margin-bottom: 26px; font-size: 15px; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 14px; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #f2f2f7; --muted: #98989f; --rule: #2c2c2e; --bg: #000000; }
+    code { background: #1c1c1e; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="./">← Steady</a>
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Steady</p>
+    <p class="meta">Effective date: June 8, 2026 · Last updated: July 2, 2026</p>
+  </header>
+
+  <p class="lede">Steady (“the app,” “we,” “us”) is an iOS app that helps you understand your own glucose, insulin, carbohydrate, and activity data. This policy explains what data the app handles and how. In plain terms: <strong>your health data stays on your device.</strong> We do not operate servers that collect, store, or analyze your data, and we do not sell or share your data for advertising.</p>
+
+  <h2>Who we are</h2>
+  <p>Steady is developed by Joseph Abel, an independent developer. For any privacy questions or requests, contact: <strong><a href="mailto:steady.diabetes@gmail.com">steady.diabetes@gmail.com</a></strong>.</p>
+
+  <h2>What data the app uses</h2>
+  <p>The app works with the following data, all of which is processed and stored <strong>locally on your iPhone</strong>:</p>
+  <ul>
+    <li><strong>Apple Health (HealthKit) data you grant access to</strong> — blood glucose readings, insulin delivery, dietary carbohydrates, workouts, steps, and related activity data. The app only reads the data types you explicitly authorize in the Health permission screen, and only reads them — it does not write data back to Apple Health.</li>
+    <li><strong>Data you enter manually in the app</strong> — manual glucose, insulin, and carb entries; correction-glucose logs; meal notes; and event-log entries (for example, pump-site changes, sensor changes, or sick days), including any free-text notes you add.</li>
+    <li><strong>App settings and preferences</strong> — your target glucose range, goals, and similar configuration.</li>
+  </ul>
+  <p>The app does <strong>not</strong> collect your name, email, contacts, location, advertising identifiers, or device identifiers.</p>
+
+  <h2>Where your data is stored</h2>
+  <p>All of the data above is stored locally on your device (in the app’s private storage and in Apple Health, which you control). The app does not upload this data to any server operated by us, and it is not stored in iCloud by the app.</p>
+
+  <h2>When data leaves your device</h2>
+  <p>There is one situation in which data can leave your device, and only at your explicit request:</p>
+  <ul>
+    <li><strong>Optional “AI Analysis” feature.</strong> If this feature is available in your version of the app and you choose to use it, the app sends the specific window of glucose, insulin, carbohydrate, and workout data you select to <strong>Anthropic’s Claude API</strong> (<code>api.anthropic.com</code>) to generate the analysis you asked for, using an API key that you provide and that is stored only in your device’s Keychain. Data is sent only when you actively run an analysis. Anthropic processes the request under its own terms and privacy policy (<a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>).</li>
+    <li><strong>Files you choose to export or share.</strong> When you export a report (PDF, Excel, or similar) or share it, the resulting file is handled by iOS and whatever destination you pick (Messages, Mail, Files, etc.). That sharing is initiated by you, and where the file goes is your choice.</li>
+  </ul>
+  <p>Aside from the above, the app makes no network requests with your health data.</p>
+
+  <h2>How HealthKit data is handled</h2>
+  <p>In keeping with Apple’s requirements, data obtained through HealthKit is:</p>
+  <ul>
+    <li>used only to provide the app’s features to you (showing patterns, trends, and analyses of your own data);</li>
+    <li><strong>never</strong> used for advertising or any use-based data mining;</li>
+    <li><strong>never</strong> sold or shared with third parties, except the optional AI Analysis feature described above, which sends data to Anthropic only at your request; and</li>
+    <li><strong>never</strong> stored in iCloud by the app.</li>
+  </ul>
+
+  <h2>Tracking and analytics</h2>
+  <p>The app contains <strong>no advertising SDKs</strong> and does not use the device’s advertising identifier, and we do <strong>not</strong> track you across other apps or websites.</p>
+  <p>To understand which features are useful and improve the app, the app collects <strong>anonymous, aggregated usage analytics</strong> using <strong>TelemetryDeck</strong> (<a href="https://telemetrydeck.com">telemetrydeck.com</a>). These signals record things like when the app is launched, which screens you view, and when you generate a report — never any glucose reading, health value, manual entry, note, or anything that identifies you. TelemetryDeck irreversibly hashes the device identifier, so the data cannot be tied back to you and is not used to track you across apps. Your glucose and health data are never included and never leave your device through analytics.</p>
+  <p>You can turn analytics off at any time in <strong>Settings → Privacy → Share anonymous usage data</strong>.</p>
+
+  <h2>Your control and data deletion</h2>
+  <ul>
+    <li>You can revoke the app’s access to Apple Health at any time in <strong>Settings → Health → Data Access &amp; Devices</strong>, or in <strong>Settings → Privacy &amp; Security → Health</strong>.</li>
+    <li>You can delete data you entered manually from within the app.</li>
+    <li><strong>Deleting the app removes all data the app stored on your device.</strong> Data that lives in Apple Health is controlled by you in the Health app and is not removed by deleting this app.</li>
+    <li>To remove the AI Analysis API key, use the “Remove” option in the app’s settings, which clears it from the Keychain.</li>
+  </ul>
+
+  <h2>Medical disclaimer</h2>
+  <p>Steady is an informational tool for reviewing your own data. It is not a medical device and does not provide medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional before making decisions about your diabetes management.</p>
+
+  <h2>Children</h2>
+  <p>The app is not directed to children under the age of 13 (or the equivalent minimum age in your jurisdiction), and we do not knowingly collect data from them.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>We may update this policy as the app changes. Material changes will be reflected by updating the “Last updated” date above and, where appropriate, noted in the app or its release notes.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or requests regarding this policy or your data: <strong><a href="mailto:steady.diabetes@gmail.com">steady.diabetes@gmail.com</a></strong></p>
+
+  <footer>© 2026 Joseph Abel · Steady</footer>
+</div>
+</body>
+</html>
