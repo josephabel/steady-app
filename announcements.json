@@ -9,7 +9,7 @@
       "linkLabel": "Share feedback",
       "minAppVersion": "1.0",
       "maxAppVersion": null,
-      "startDate": "2026-08-07",
+      "startDate": "2026-08-05",
       "endDate": "2026-12-31",
       "priority": 10
     }
@@ -26,7 +26,7 @@
       "linkLabel": "Share feedback",
       "minAppVersion": "1.0",
       "maxAppVersion": null,
-      "startDate": "2026-08-07",
+      "startDate": "2026-08-05",
       "endDate": "2026-12-31",
       "priority": 8
     }
