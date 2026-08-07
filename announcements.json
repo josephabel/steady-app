@@ -1,7 +1,7 @@
 {
   "announcements": [
     {
-      "id": "2026-08-feedback",
+      "id": "2026-08-24-feedback",
       "title": "How's Steady working for you?",
       "body": "I'm a solo developer and a fellow T1D, and your feedback shapes what I build next. It only takes a minute — thank you!",
       "imageURL": null,
@@ -9,12 +9,12 @@
       "linkLabel": "Share feedback",
       "minAppVersion": "1.0",
       "maxAppVersion": null,
-      "startDate": "2026-08-05",
+      "startDate": "2026-08-24",
       "endDate": "2026-12-31",
       "priority": 10
     },
     {
-      "id": "2026-08-07-feedback",
+      "id": "2036-08-07-feedback",
       "title": "Do you want the robots' perspective?",
       "body": "I've downloaded my Steady data and fed it to AI to get insights and recommendations.  I even had it generate a successful insurance appeal based on my data.  I'm interested in learning if Steady users would want that build in.",
       "imageURL": null,
@@ -22,8 +22,8 @@
       "linkLabel": "Share feedback",
       "minAppVersion": "1.0",
       "maxAppVersion": null,
-      "startDate": "2026-08-05",
-      "endDate": "2026-12-31",
+      "startDate": "2036-08-05",
+      "endDate": "2036-12-31",
       "priority": 8
     }
   ]
