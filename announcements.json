@@ -1,0 +1,17 @@
+{
+  "announcements": [
+    {
+      "id": "2026-08-feedback",
+      "title": "How's Steady working for you?",
+      "body": "I'm a solo developer and a fellow T1D, and your feedback shapes what I build next. It only takes a minute — thank you!",
+      "imageURL": null,
+      "linkURL": "https://forms.gle/REPLACE_WITH_YOUR_FORM",
+      "linkLabel": "Share feedback",
+      "minAppVersion": "1.0",
+      "maxAppVersion": null,
+      "startDate": "2026-08-07",
+      "endDate": "2026-12-31",
+      "priority": 10
+    }
+  ]
+}
