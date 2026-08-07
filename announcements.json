@@ -12,11 +12,7 @@
       "startDate": "2026-08-05",
       "endDate": "2026-12-31",
       "priority": 10
-    }
-  ]
-},
-{
-  "announcements": [
+    },
     {
       "id": "2026-08-07-feedback",
       "title": "Do you want the robots' perspective?",
