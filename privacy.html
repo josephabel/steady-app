@@ -35,6 +35,7 @@
   li { margin: 8px 0; }
   code { background: #f2f2f7; padding: 1px 5px; border-radius: 5px; font-size: 0.9em; }
   .back { display: inline-block; margin-bottom: 26px; font-size: 15px; }
+  .lang { float: right; font-size: 15px; }
   footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 14px; }
   @media (prefers-color-scheme: dark) {
     :root { --ink: #f2f2f7; --muted: #98989f; --rule: #2c2c2e; --bg: #000000; }
@@ -45,58 +46,69 @@
 <body>
 <div class="wrap">
   <a class="back" href="./">← Steady</a>
+  <a class="lang" href="privacy-fr.html" lang="fr" hreflang="fr">Version française</a>
   <header>
     <h1>Privacy Policy</h1>
     <p class="meta">Steady</p>
-    <p class="meta">Effective date: June 8, 2026 · Last updated: July 2, 2026</p>
+    <p class="meta">Effective date: June 8, 2026 · Last updated: November 9, 2026</p>
   </header>
 
-  <p class="lede">Steady (“the app,” “we,” “us”) is an iOS app that helps you understand your own glucose, insulin, carbohydrate, and activity data. This policy explains what data the app handles and how. In plain terms: <strong>your health data stays on your device.</strong> We do not operate servers that collect, store, or analyze your data, and we do not sell or share your data for advertising.</p>
+  <p class="lede">Steady (“the app,” “we,” “us”) is an iOS app that helps you understand your own glucose, insulin, carbohydrate, and activity data. This policy explains what data the app handles and how. In plain terms: <strong>your health data stays on your device.</strong> We do not operate servers that collect, store, or analyze your health data, and we do not sell or share your data for advertising.</p>
 
   <h2>Who we are</h2>
-  <p>Steady is developed by Joseph Abel, an independent developer. For any privacy questions or requests, contact: <strong><a href="mailto:steady.diabetes@gmail.com">steady.diabetes@gmail.com</a></strong>.</p>
+  <p>Steady is developed by Joseph Abel, an independent developer, who is responsible for this app and this policy. For any privacy questions or requests, contact: <strong><a href="mailto:steady.diabetes@gmail.com">steady.diabetes@gmail.com</a></strong>.</p>
 
   <h2>What data the app uses</h2>
   <p>The app works with the following data, all of which is processed and stored <strong>locally on your iPhone</strong>:</p>
   <ul>
     <li><strong>Apple Health (HealthKit) data you grant access to</strong> — blood glucose readings, insulin delivery, dietary carbohydrates, workouts, steps, and related activity data. The app only reads the data types you explicitly authorize in the Health permission screen, and only reads them — it does not write data back to Apple Health.</li>
-    <li><strong>Data you enter manually in the app</strong> — manual glucose, insulin, and carb entries; correction-glucose logs; meal notes; and event-log entries (for example, pump-site changes, sensor changes, or sick days), including any free-text notes you add.</li>
+    <li><strong>Data you enter in the app</strong> — manual glucose, insulin, and carb entries; correction-glucose logs; notes; questions for your care team; and event-log entries (for example, pump-site changes, sensor changes and body site, travel days, or sick days), including any free-text notes you add.</li>
+    <li><strong>Food photos</strong>, if you take them in the app. They are kept on your device and, if you choose, saved to your Photos library.</li>
+    <li><strong>Files you import</strong>, such as a Glooko export you choose to import (a beta feature). The file is read on your device; its insulin and carbohydrate data are saved in the app on your device.</li>
+    <li><strong>Your location, only if you turn on travel detection</strong> (see “Location” below).</li>
     <li><strong>App settings and preferences</strong> — your target glucose range, goals, and similar configuration.</li>
   </ul>
-  <p>The app does <strong>not</strong> collect your name, email, contacts, location, advertising identifiers, or device identifiers.</p>
+  <p>The app does <strong>not</strong> collect your name, email address, contacts, or advertising identifiers.</p>
+
+  <h2>Location</h2>
+  <p>Travel detection is optional. If you set a home location and allow location access “While Using the App,” Steady checks your approximate location (about 1 km accuracy) when you open the app, to notice when you are away from home and offer to log a travel day. It does not track your location in the background. Your home location and location checks stay on your device and are never uploaded. You can clear your home location in the app, or turn off location access in iOS <strong>Settings → Privacy &amp; Security → Location Services</strong>.</p>
 
   <h2>Where your data is stored</h2>
   <p>All of the data above is stored locally on your device (in the app’s private storage and in Apple Health, which you control). The app does not upload this data to any server operated by us, and it is not stored in iCloud by the app.</p>
 
   <h2>When data leaves your device</h2>
-  <p>There is one situation in which data can leave your device, and only at your explicit request:</p>
   <ul>
-    <li><strong>Optional “AI Analysis” feature.</strong> If this feature is available in your version of the app and you choose to use it, the app sends the specific window of glucose, insulin, carbohydrate, and workout data you select to <strong>Anthropic’s Claude API</strong> (<code>api.anthropic.com</code>) to generate the analysis you asked for, using an API key that you provide and that is stored only in your device’s Keychain. Data is sent only when you actively run an analysis. Anthropic processes the request under its own terms and privacy policy (<a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>).</li>
-    <li><strong>Files you choose to export or share.</strong> When you export a report (PDF, Excel, or similar) or share it, the resulting file is handled by iOS and whatever destination you pick (Messages, Mail, Files, etc.). That sharing is initiated by you, and where the file goes is your choice.</li>
+    <li><strong>Files you choose to export or share.</strong> When you export a report (PDF, Excel, or similar) or share it, the resulting file is handled by iOS and whatever destination you pick (Messages, Mail, Files, etc.). That sharing is started by you, and where the file goes is your choice.</li>
+    <li><strong>Feedback you choose to send.</strong> If you tap a feedback link, the app opens your email app or a feedback form. Only what you choose to write or attach is sent.</li>
+    <li><strong>Anonymous usage analytics</strong>, described under “Tracking and analytics” below. These never include health data.</li>
+    <li><strong>In-app announcements.</strong> When you open the app, it downloads a small announcements file from our website (hosted by GitHub Pages) so we can show occasional notices, such as new features or feedback requests. No data about you or your health is sent; as with any website, the host can see your device’s IP address.</li>
   </ul>
   <p>Aside from the above, the app makes no network requests with your health data.</p>
+  <p><strong>AI Analysis.</strong> The app contains an “AI Analysis” screen that is not available to users in the current version. If it is offered in a future version, it will only run when you ask it to, it will explain what data it sends and to whom, and this policy will be updated before then.</p>
 
   <h2>How HealthKit data is handled</h2>
   <p>In keeping with Apple’s requirements, data obtained through HealthKit is:</p>
   <ul>
     <li>used only to provide the app’s features to you (showing patterns, trends, and analyses of your own data);</li>
     <li><strong>never</strong> used for advertising or any use-based data mining;</li>
-    <li><strong>never</strong> sold or shared with third parties, except the optional AI Analysis feature described above, which sends data to Anthropic only at your request; and</li>
+    <li><strong>never</strong> sold or shared with third parties; and</li>
     <li><strong>never</strong> stored in iCloud by the app.</li>
   </ul>
 
   <h2>Tracking and analytics</h2>
   <p>The app contains <strong>no advertising SDKs</strong> and does not use the device’s advertising identifier, and we do <strong>not</strong> track you across other apps or websites.</p>
-  <p>To understand which features are useful and improve the app, the app collects <strong>anonymous, aggregated usage analytics</strong> using <strong>TelemetryDeck</strong> (<a href="https://telemetrydeck.com">telemetrydeck.com</a>). These signals record things like when the app is launched, which screens you view, and when you generate a report — never any glucose reading, health value, manual entry, note, or anything that identifies you. TelemetryDeck irreversibly hashes the device identifier, so the data cannot be tied back to you and is not used to track you across apps. Your glucose and health data are never included and never leave your device through analytics.</p>
-  <p>You can turn analytics off at any time in <strong>Settings → Privacy → Share anonymous usage data</strong>.</p>
+  <p>To understand which features are useful and improve the app, the app collects <strong>anonymous, aggregated usage analytics</strong> using <strong>TelemetryDeck</strong> (<a href="https://telemetrydeck.com">telemetrydeck.com</a>). These signals record things like when the app is launched, which screens you view, and when you generate a report — never any glucose reading, health value, manual entry, note, location, or anything that identifies you. TelemetryDeck irreversibly hashes the device identifier, so the data cannot be tied back to you and is not used to track you across apps.</p>
+  <p>You can turn analytics off at any time in the app under <strong>Settings → Privacy → Share anonymous usage data</strong>.</p>
 
   <h2>Your control and data deletion</h2>
   <ul>
-    <li>You can revoke the app’s access to Apple Health at any time in <strong>Settings → Health → Data Access &amp; Devices</strong>, or in <strong>Settings → Privacy &amp; Security → Health</strong>.</li>
-    <li>You can delete data you entered manually from within the app.</li>
-    <li><strong>Deleting the app removes all data the app stored on your device.</strong> Data that lives in Apple Health is controlled by you in the Health app and is not removed by deleting this app.</li>
-    <li>To remove the AI Analysis API key, use the “Remove” option in the app’s settings, which clears it from the Keychain.</li>
+    <li>You can revoke the app’s access to Apple Health at any time in iOS <strong>Settings → Health → Data Access &amp; Devices</strong>, or in <strong>Settings → Privacy &amp; Security → Health</strong>.</li>
+    <li>You can delete data you entered or imported from within the app.</li>
+    <li><strong>Deleting the app removes all data the app stored on your device.</strong> Data that lives in Apple Health or in your Photos library is controlled by you and is not removed by deleting this app.</li>
   </ul>
+
+  <h2>If you are in the European Union or the United Kingdom</h2>
+  <p>Because your health data is processed on your own device and is not sent to us, we do not hold your health data. The only data we receive is the anonymous usage analytics described above, which you can turn off at any time, and anything you choose to send us (such as a feedback email). You can contact us at the address below with any request about your data. You also have the right to complain to your data protection authority (in France, the CNIL: <a href="https://www.cnil.fr">cnil.fr</a>).</p>
 
   <h2>Medical disclaimer</h2>
   <p>Steady is an informational tool for reviewing your own data. It is not a medical device and does not provide medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional before making decisions about your diabetes management.</p>
